@@ -5,7 +5,7 @@ In this assignment we will discover VMX features present in the processor by wri
 * Read the VMX configuration MSRs to ascertain support capabilities
 * For each group of controls interpret and output the values read from the MSR.
 
-Answer to Questions mentioned in the Assignment:
+### Answer to Questions mentioned in the Assignment:
 1. I did this assignment alone.
 2. Steps taken to complete the assignment are as follows:
 <ol type="a">
@@ -22,3 +22,9 @@ Answer to Questions mentioned in the Assignment:
 <li>Made code changes to the initial C file to read the configurations of the remaining MSRs and to print the output of the values read.</li>
 <li>Compiled and ran the modified C file and validated the output. Used make, insmod, rmmod, dmesg to do this step.</li>
 </ol>
+
+### Output
+![1](Output/Screenshot_1_Pinbased_Primary_Procbased.PNG)
+![2](Output/Screenshot_2_Secondary_Tertiary_VmExit_Procbased.PNG)
+![3](Output/Screenshot_3_VmEntry_PrimaryVmExit_based.PNG)
+
