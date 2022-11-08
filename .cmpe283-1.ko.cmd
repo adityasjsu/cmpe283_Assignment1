@@ -1,1 +1,0 @@
-cmd_/home/aditya_kumar/cmpe283_Assignment1/cmpe283-1.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/aditya_kumar/cmpe283_Assignment1/cmpe283-1.ko /home/aditya_kumar/cmpe283_Assignment1/cmpe283-1.o /home/aditya_kumar/cmpe283_Assignment1/cmpe283-1.mod.o;  true
