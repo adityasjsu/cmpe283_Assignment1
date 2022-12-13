@@ -1609,6 +1609,6 @@ bool ecx_defined_sdm(u32 *ecx) {
 }
 // function for checking ecx value validation in VMX
 bool ecx_enabled_vmx(u32 *ecx) {
-	return (*ecx != 5 && *ecx != 6 && *ecx != 11 && *ecx != 17 && *ecx != 65 && *ecx != 66 && *ecx != 69);
+	return (*ecx != 3 && *ecx != 4 && *ecx != 5 && *ecx != 6 && *ecx != 11 && *ecx != 16 && *ecx != 17 && *ecx != 33 && *ecx != 34 && *ecx != 51 && *ecx != 63 && *ecx != 64 && *ecx != 65 && *ecx != 66 && *ecx != 67 && *ecx != 68 && *ecx != 69);
 }
 EXPORT_SYMBOL_GPL(kvm_emulate_cpuid);
